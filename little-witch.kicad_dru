@@ -2,3 +2,7 @@
 (rule Minimum_clearance_1
 	(constraint clearance (min 0.127mm))
 )
+(rule Outer_layer_less_edge_clearance
+    (condition "A.Layer == 'outer'")
+	(constraint edge_clearance (min 0.254mm))
+)

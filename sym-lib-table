@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.kicad_sym") (options "") (descr ""))
+	(lib (name "LAN8830T_PSA") (type "KiCad") (uri "/home/soto/c/snapmaker-footprints/LAN8830T_PSA.kicad_sym") (options "") (descr ""))
+)

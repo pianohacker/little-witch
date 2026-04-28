@@ -8561,6 +8561,12 @@
 			(uuid "a4bb4ff2-0b91-4ea5-8600-df14d3bd93d1")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "L2")
@@ -8639,6 +8645,12 @@
 			(uuid "fb4c78bd-25c7-4a2d-af2f-0a11b1f072d0")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR028")
@@ -8900,6 +8912,12 @@
 			(uuid "446cc76a-1528-4bd9-93eb-1b6c640682fe")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "J2")
@@ -8982,6 +9000,12 @@
 			(uuid "05ecb5dd-7d24-4a7f-9d9d-86de259ba43f")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C24")
@@ -9064,6 +9088,12 @@
 			(uuid "14eeb8b2-2c94-49a6-bf97-384c096b9923")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C19")
@@ -9146,6 +9176,12 @@
 			(uuid "61550cee-1ca2-46b8-9fd5-3af68c666c28")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C25")
@@ -9224,6 +9260,12 @@
 			(uuid "5ff73184-cf25-48f5-a203-586120ca2c41")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR021")
@@ -9306,6 +9348,12 @@
 			(uuid "0e9303df-61bc-4419-848f-7b58be868935")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C12")
@@ -9425,6 +9473,12 @@
 			(uuid "bccb7d24-bedd-406d-b33b-a2990b3e9bd3")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "Q2")
@@ -9507,6 +9561,12 @@
 			(uuid "c881531c-745a-4793-aff8-e8ec224fa883")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C16")
@@ -9589,6 +9649,12 @@
 			(uuid "3c479e64-37ac-4d68-8f75-25ce75eea539")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C11")
@@ -9667,6 +9733,12 @@
 			(uuid "6c36c4dc-1bf5-4634-b01c-1f64efbbf9ba")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR025")
@@ -9749,6 +9821,12 @@
 			(uuid "bbc85665-908a-43fe-a0cc-76956b854f5f")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C23")
@@ -9827,6 +9905,12 @@
 			(uuid "fc3cdf64-a67f-488a-b741-ba230e50b7d3")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR015")
@@ -9909,6 +9993,12 @@
 			(uuid "4d419763-0566-4d86-bd4d-5a73d9bf53c2")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C20")
@@ -9991,6 +10081,12 @@
 			(uuid "80c59dd2-d2a7-4393-96dd-10bbfb6483ed")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C15")
@@ -10069,6 +10165,12 @@
 			(uuid "6b428518-def5-4565-8e4a-0c6fc0e158ef")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR018")
@@ -10151,6 +10253,12 @@
 			(uuid "3249436a-51f4-4e45-8996-8188e9226746")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C17")
@@ -10229,6 +10337,12 @@
 			(uuid "57dd35ce-035a-40f3-a50d-d0a908648233")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR026")
@@ -10307,6 +10421,12 @@
 			(uuid "08dc5bcc-3cdd-4efa-89a4-d4177a6c75dc")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR019")
@@ -10385,6 +10505,12 @@
 			(uuid "9f75a170-ce7c-45a1-88b9-9f2f9dfe998c")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR020")
@@ -10467,6 +10593,12 @@
 			(uuid "a022aaf6-2c95-4132-9c63-cd90ecd89374")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C13")
@@ -10547,6 +10679,12 @@
 			(uuid "22d99243-7de6-4a85-ac82-078fd1b411e4")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "R5")
@@ -10625,6 +10763,12 @@
 			(uuid "751978f0-b9fe-4c59-b311-d59db24a253e")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR017")
@@ -10707,6 +10851,12 @@
 			(uuid "77b0b425-18c5-48bd-ad62-28fb281d029e")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C10")
@@ -10785,6 +10935,12 @@
 			(uuid "56df837d-dd74-41b1-8f8e-defc635ec9da")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR023")
@@ -10868,6 +11024,12 @@
 			(uuid "ab6b1b61-a5dc-41b9-b6ad-97eec0de3fd4")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "L1")
@@ -10950,6 +11112,12 @@
 			(uuid "d6a55702-fa03-447a-9dc6-d37f6135daad")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C21")
@@ -11028,6 +11196,12 @@
 			(uuid "42432de1-710c-41ec-be2f-c19249b00679")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR024")
@@ -11385,6 +11559,12 @@
 			(uuid "43b3b1ca-7f21-4220-bd31-74388f288661")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "U2")
@@ -11467,6 +11647,12 @@
 			(uuid "e7a470ba-600c-428c-b739-5a21c023cf87")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C18")
@@ -11545,6 +11731,12 @@
 			(uuid "7f3f498f-ad90-485e-b686-575f3adc4582")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR022")
@@ -11627,6 +11819,12 @@
 			(uuid "91453dc7-7249-4e5f-9ea0-0af48a2db683")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C22")
@@ -11709,6 +11907,12 @@
 			(uuid "88f41b2b-f220-484c-8d9e-ce1dbf47662a")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "C14")
@@ -11787,6 +11991,12 @@
 			(uuid "04daadec-d5fb-4392-a4d7-68a00660f793")
 		)
 		(instances
+			(project "ethernet"
+				(path "/006e3a49-454d-41b5-9a77-85c5946674dd"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR027")

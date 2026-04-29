@@ -492,7 +492,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "snapmaker-footprints"
+      "snapmaker-footprints",
+      "Library"
     ],
     "pinned_symbol_libs": []
   },
@@ -705,7 +706,7 @@
         "uuid": "ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R2,R6,R11-12,#PWR6,U2,J2",
     "variants": []
   },
   "sheets": [

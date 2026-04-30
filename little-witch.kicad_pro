@@ -523,8 +523,29 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.2,
+        "name": "MDI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.854,
+        "via_drill": 0.254
+      },
+      {
         "clearance": 0.15,
         "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.15,
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -532,18 +553,9 @@
         "tuning_profile": ""
       },
       {
-        "diff_pair_gap": 0.127,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": ""
-      },
-      {
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "tuning_profile": ""
@@ -570,6 +582,10 @@
       {
         "netclass": "VBUS",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "MDI",
+        "pattern": "/TD*"
       }
     ]
   },
@@ -706,7 +722,7 @@
         "uuid": "ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
       }
     ],
-    "used_designators": "C7,C10,C25-26,R2,R5-6,R11-22,#PWR6,#PWR11,#PWR15,#PWR17-19,#PWR23-24,#PWR30,#PWR48-49,U2,J2",
+    "used_designators": "C7,C10,C25-26,R2,R5-6,R11-22,#PWR6,#PWR11,#PWR15,#PWR17-21,#PWR23-24,#PWR30,#PWR48-49,U2,J2",
     "variants": []
   },
   "sheets": [
@@ -724,6 +740,33 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5658400,
+            "diff_pair_gap": 127000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 150000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5658400,
+            "diff_pair_gap": 127000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 150000
+          }
+        ],
+        "profile_name": "Ethernet MDI",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }

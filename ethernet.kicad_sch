@@ -3948,6 +3948,16 @@
 		)
 		(uuid "feb20bf5-f42d-4163-b3e5-4694b247e5f8")
 	)
+	(label "VDD_RGMII"
+		(at 111.76 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00e79222-b0da-493e-990d-147ecfb4fb57")
+	)
 	(label "ETH_CFG_LDO1"
 		(at 243.84 90.17 180)
 		(effects
@@ -4208,6 +4218,26 @@
 		)
 		(uuid "d99a3ea9-3c19-4729-a794-0c27d647742c")
 	)
+	(label "VDD_RGMII"
+		(at 261.62 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1cc2102-0524-4326-a4b3-0e43af88f1ea")
+	)
+	(label "VDD_RGMII"
+		(at 213.36 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f83ba92d-b099-4c16-af7d-6fb3fd22a313")
+	)
 	(global_label "VDD_ETH"
 		(shape input)
 		(at 212.09 24.13 90)
@@ -4293,30 +4323,6 @@
 		(uuid "0ff3701f-5f57-48ce-9e22-08cf18097031")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.2665 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD_RGMII"
-		(shape input)
-		(at 261.62 113.03 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13c089aa-ae09-4a9d-bd08-5cf23d3064af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 100.2476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,30 +4670,6 @@
 			)
 		)
 	)
-	(global_label "VDD_RGMII"
-		(shape input)
-		(at 111.76 38.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c98e7c17-7b3d-4e65-b07c-c4bc3a22a7b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 25.3176 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ETH_TXD3"
 		(shape input)
 		(at 82.55 113.03 180)
@@ -4709,30 +4691,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VDD_RGMII"
-		(shape input)
-		(at 219.71 58.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd0096c8-e16a-4799-970a-a89527b0c066")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 45.6376 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5422,7 +5380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ARJM11B1-502-AB-EW2"
+		(property "Value" "ARJM11D7-502-AB-EW2"
 			(at 204.47 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5433,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:ABRACON_ARJM11B1-502-AB-EW2"
+		(property "Footprint" "Library:ABRACON_ARJM11D7-502-AB-EW2"
 			(at 195.58 119.38 0)
 			(hide yes)
 			(show_name no)

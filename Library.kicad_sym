@@ -8145,7 +8145,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 45.72 270)
+				(at 8.89 45.72 270)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -8271,7 +8271,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 45.72 270)
+				(at 0 45.72 270)
 				(length 7.62)
 				(name "VDDP"
 					(effects
@@ -8289,7 +8289,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 45.72 270)
+				(at -7.62 45.72 270)
 				(length 7.62)
 				(name "VDD3V3"
 					(effects

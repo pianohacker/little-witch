@@ -6230,7 +6230,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 161.29) (xy 102.87 161.29)
+			(xy 102.87 161.29) (xy 111.76 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8181,6 +8181,30 @@
 		(uuid "7849597b-6dfd-402c-a8bd-d2fd74a04da7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.5703 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_MDC"
+		(shape input)
+		(at 111.76 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bf19acd-f5b2-4963-b0f3-4588ca7d9fe5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.1513 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13382,7 +13406,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SiT8008xx-1x-xxS"
+		(property "Value" "SIT8008BI-73-33N-25.000000"
 			(at 123.19 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13393,7 +13417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm"
 			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13439,7 @@
 				)
 			)
 		)
-		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 2.5x2.0mm (with NC pin)"
+		(property "Description" "SiTime Low Power Mems programmable oscillator, 2.5MHz, PQFN-4, 2.0x1.6mm (with NC pin)"
 			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13762,6 +13786,84 @@
 			(project "little-witch"
 				(path "/eaea4e42-a070-4be5-b9dd-9215ef3d72c7"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 261.62 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2eb8eab-d7b8-4e56-b17b-82b4ec3530c2")
+		(property "Reference" "#PWR011"
+			(at 261.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 261.62 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 261.62 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa9d7890-49b7-4f5f-86fa-4c1f5dafe254")
+		)
+		(instances
+			(project "little-witch"
+				(path "/eaea4e42-a070-4be5-b9dd-9215ef3d72c7"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

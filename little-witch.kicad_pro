@@ -527,17 +527,25 @@
         "diff_pair_width": 0.15,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "Ethernet MDI",
         "via_diameter": 0.854,
         "via_drill": 0.254
       },
       {
+        "name": "MII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.15,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -547,7 +555,7 @@
         "diff_pair_width": 0.2,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -555,7 +563,7 @@
       {
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "tuning_profile": ""
@@ -586,6 +594,14 @@
       {
         "netclass": "MDI",
         "pattern": "/TD*"
+      },
+      {
+        "netclass": "MII",
+        "pattern": "ETH_TX*"
+      },
+      {
+        "netclass": "MII",
+        "pattern": "ETH_RX*"
       }
     ]
   },

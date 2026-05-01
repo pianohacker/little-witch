@@ -2532,9 +2532,20 @@
 		)
 		(uuid "0ecc7c6c-b05f-4ca0-bfa3-c137c6a1f2df")
 	)
+	(text "No TX CLK delay\n"
+		(exclude_from_sim no)
+		(at 263.652 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3189593f-5299-4762-9a6c-c87c235e1339")
+	)
 	(text "PLL off during sleep"
 		(exclude_from_sim no)
-		(at 273.558 128.016 0)
+		(at 273.558 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,13 +2553,14 @@
 		)
 		(uuid "637cacf3-dcb1-45b5-8513-a5f8dee56f0c")
 	)
-	(text "No RX/TX delays"
+	(text "Delay RX CLK"
 		(exclude_from_sim no)
-		(at 271.78 123.444 0)
+		(at 263.652 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "91720ba1-5b4d-4501-9e80-0998b48b5771")
 	)
@@ -2629,6 +2641,12 @@
 		(uuid "72933eb5-56ee-4363-8fcc-eb7897bb5d96")
 	)
 	(junction
+		(at 261.62 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7951442f-322b-4754-9bff-53acde936ddf")
+	)
+	(junction
 		(at 257.81 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2645,12 +2663,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "876dd86e-5885-4c9a-b6c3-50ad1f015904")
-	)
-	(junction
-		(at 257.81 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99b6da72-0011-4b61-b6fb-c96c11647275")
 	)
 	(junction
 		(at 261.62 87.63)
@@ -2760,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 128.27) (xy 261.62 113.03)
+			(xy 261.62 128.27) (xy 261.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3030,6 +3042,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 123.19) (xy 261.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e1c399-7188-4a02-a8e4-8f29d3991bed")
+	)
+	(wire
+		(pts
 			(xy 123.19 38.1) (xy 125.73 38.1)
 		)
 		(stroke
@@ -3230,16 +3252,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 120.65) (xy 257.81 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6972e602-5dae-44dd-865b-f4c7e44a73aa")
-	)
-	(wire
-		(pts
 			(xy 257.81 118.11) (xy 257.81 120.65)
 		)
 		(stroke
@@ -3247,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "6b0b975e-4ea6-46e9-806c-7e45462247fe")
-	)
-	(wire
-		(pts
-			(xy 255.27 123.19) (xy 257.81 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb3e956-e61d-46f4-852d-6515c195f165")
 	)
 	(wire
 		(pts
@@ -3630,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 123.19) (xy 261.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9a70ab-5bef-44d8-99c2-1fde7a156103")
+	)
+	(wire
+		(pts
 			(xy 243.84 85.09) (xy 245.11 85.09)
 		)
 		(stroke
@@ -3820,7 +3832,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 123.19) (xy 257.81 125.73)
+			(xy 257.81 120.65) (xy 257.81 125.73)
 		)
 		(stroke
 			(width 0)

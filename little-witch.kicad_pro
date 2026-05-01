@@ -524,12 +524,12 @@
       },
       {
         "diff_pair_gap": 0.127,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
+        "tuning_profile": "Ethernet MDI",
         "via_diameter": 0.854,
         "via_drill": 0.254
       },
@@ -544,7 +544,7 @@
       },
       {
         "diff_pair_gap": 0.127,
-        "diff_pair_width": 0.15,
+        "diff_pair_width": 0.2,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -746,7 +746,7 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5658400,
+            "delay": 5691500,
             "diff_pair_gap": 127000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
@@ -754,7 +754,7 @@
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5658400,
+            "delay": 5691500,
             "diff_pair_gap": 127000,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In2.Cu",

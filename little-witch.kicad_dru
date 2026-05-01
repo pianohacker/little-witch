@@ -6,3 +6,7 @@
     (condition "A.Layer == 'outer'")
 	(constraint edge_clearance (min 0.254mm))
 )
+(rule Ethernet_MDI_skew
+	(condition "A.hasNetclass('MDI') && AB.isCoupledDiffPair()")
+	(constraint skew (min -50mil) (max 50mil))
+)

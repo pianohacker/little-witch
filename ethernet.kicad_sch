@@ -5380,7 +5380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ARJM11D7-502-AB-EW2"
+		(property "Value" "TMJG0803HENL"
 			(at 204.47 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:ABRACON_ARJM11D7-502-AB-EW2"
+		(property "Footprint" "Library:RJ45_TMJG0803HENL"
 			(at 195.58 119.38 0)
 			(hide yes)
 			(show_name no)

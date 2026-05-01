@@ -602,6 +602,10 @@
       {
         "netclass": "MII",
         "pattern": "ETH_RX*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD_*"
       }
     ]
   },

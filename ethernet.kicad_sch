@@ -2599,12 +2599,6 @@
 		(uuid "2eafd6a5-f91b-418e-99b2-1e4fa722058a")
 	)
 	(junction
-		(at 148.59 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38504f18-4e85-4d9c-a1a8-e51c75e6b2f1")
-	)
-	(junction
 		(at 257.81 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2659,16 +2653,16 @@
 		(uuid "876dd86e-5885-4c9a-b6c3-50ad1f015904")
 	)
 	(junction
+		(at 171.45 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b69bbe-401f-4ff4-b67b-34aed962304f")
+	)
+	(junction
 		(at 261.62 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a73f785-a927-4cbd-a999-c42d444e0065")
-	)
-	(junction
-		(at 148.59 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b933c0b3-32cc-4b09-b9b4-6c01a949d504")
 	)
 	(junction
 		(at 222.25 35.56)
@@ -2918,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 127) (xy 151.13 127)
+			(xy 171.45 152.4) (xy 195.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3038,6 +3032,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 152.4) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da55fc0-2c6b-4a33-9f25-0993fadfa003")
+	)
+	(wire
+		(pts
 			(xy 175.26 129.54) (xy 176.53 129.54)
 		)
 		(stroke
@@ -3148,13 +3152,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 121.92) (xy 148.59 121.92)
+			(xy 171.45 163.83) (xy 171.45 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae8b7a4-7ea5-4caf-a619-230e4c0000bf")
+		(uuid "5beda03e-d6d8-496e-bdf9-4d2bb12f6803")
 	)
 	(wire
 		(pts
@@ -3225,6 +3229,16 @@
 			(type default)
 		)
 		(uuid "6fa466c8-ab56-41b0-9249-1775b1a5f7f3")
+	)
+	(wire
+		(pts
+			(xy 171.45 156.21) (xy 171.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b3270e-ae5f-40f1-9764-fe96eeeacb26")
 	)
 	(wire
 		(pts
@@ -3368,6 +3382,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 152.4) (xy 171.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c85b54-befe-4930-9bbc-18dad2102235")
+	)
+	(wire
+		(pts
 			(xy 142.24 69.85) (xy 140.97 69.85)
 		)
 		(stroke
@@ -3428,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 119.38) (xy 148.59 119.38)
+			(xy 182.88 119.38) (xy 152.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3748,16 +3772,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 121.92) (xy 151.13 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f136899e-df08-4210-a1b1-4d9bc5683e6c")
-	)
-	(wire
-		(pts
 			(xy 261.62 85.09) (xy 261.62 81.28)
 		)
 		(stroke
@@ -3798,13 +3812,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 119.38) (xy 148.59 121.92)
+			(xy 195.58 152.4) (xy 195.58 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f562af53-f9eb-4ba9-926e-67856e30c2ed")
+		(uuid "f60e7f19-3e5b-4c66-950c-9e61e9440cb7")
 	)
 	(wire
 		(pts
@@ -3825,16 +3839,6 @@
 			(type default)
 		)
 		(uuid "fe3c4163-f20a-43f6-afc6-e7dc0ff43f97")
-	)
-	(wire
-		(pts
-			(xy 146.05 127) (xy 148.59 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb20bf5-f42d-4163-b3e5-4694b247e5f8")
 	)
 	(label "VDD_RGMII"
 		(at 111.76 38.1 90)
@@ -3985,6 +3989,16 @@
 			(justify left bottom)
 		)
 		(uuid "80fdf140-a494-45fe-80fa-0ec21d09af51")
+	)
+	(label "ETH_SHIELD"
+		(at 171.45 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83bbefb5-135e-4315-a9c0-210d57b203ef")
 	)
 	(label "ETH_PHYAD0"
 		(at 243.84 115.57 180)
@@ -5087,7 +5101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 127 0)
+		(at 171.45 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5098,7 +5112,7 @@
 		(fields_autoplaced yes)
 		(uuid "193bc824-84a9-44f0-b90e-fc685a6dac6a")
 		(property "Reference" "#PWR06"
-			(at 148.59 133.35 0)
+			(at 171.45 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5109,7 +5123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 132.08 0)
+			(at 171.45 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5119,7 +5133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 127 0)
+			(at 171.45 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 127 0)
+			(at 171.45 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +5155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 127 0)
+			(at 171.45 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,6 +5342,88 @@
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 171.45 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2640b395-bf3a-497f-ac80-8246fb062f4e")
+		(property "Reference" "C27"
+			(at 173.99 157.6069 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 173.99 160.1469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 171.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da6b1e14-5b0c-45ae-8de9-10b88c32d667")
+		)
+		(pin "1"
+			(uuid "1ada606f-2e76-4908-b27d-3b02c81f3da0")
+		)
+		(instances
+			(project "little-witch"
+				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6756,170 +6852,6 @@
 			(project "little-witch"
 				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 146.05 124.46 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a684e5da-e221-492e-8f10-e95e3c175bac")
-		(property "Reference" "R6"
-			(at 143.51 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75"
-			(at 143.51 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 146.05 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62f06e71-6403-42a8-81dc-60e53aa21700")
-		)
-		(pin "2"
-			(uuid "e5056ee2-b808-4242-bd91-a716009d2d7a")
-		)
-		(instances
-			(project "little-witch"
-				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 151.13 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7f2d4a3-cd5f-4e77-9b9e-be8d3a02373c")
-		(property "Reference" "R2"
-			(at 153.67 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75"
-			(at 153.67 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 151.13 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 151.13 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb216a47-aaa5-4913-ac6e-54f2f63948bb")
-		)
-		(pin "2"
-			(uuid "b08c0bae-47f1-401c-bcbd-d95af51c1d25")
-		)
-		(instances
-			(project "little-witch"
-				(path "/ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
-					(reference "R2")
 					(unit 1)
 				)
 			)

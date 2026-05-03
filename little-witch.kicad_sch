@@ -5742,16 +5742,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 133.35) (xy 111.76 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0883ef04-cf90-4cce-847d-52b60b4fc13d")
-	)
-	(wire
-		(pts
 			(xy 102.87 95.25) (xy 111.76 95.25)
 		)
 		(stroke
@@ -5959,6 +5949,16 @@
 			(type default)
 		)
 		(uuid "26185c6c-5b37-4650-8d81-1439d59524dd")
+	)
+	(wire
+		(pts
+			(xy 102.87 133.35) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271d5399-4726-4a51-a963-5bf28296d676")
 	)
 	(wire
 		(pts
@@ -8143,30 +8143,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_CLK125"
-		(shape input)
-		(at 111.76 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34bb6fc3-4158-4882-97fe-de7a5900a510")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.3565 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)

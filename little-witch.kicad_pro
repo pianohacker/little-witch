@@ -69,6 +69,14 @@
         [
           "courtyards_overlap|112305000|105604979|1442d6fc-b025-4612-bc94-57194c4ef3f8|9ab625a7-4e92-43f2-9442-ad07aaa8a3fd",
           "Knowing violation, just enough clearance"
+        ],
+        [
+          "courtyards_overlap|152520000|113051841|c6534a25-322c-4d2b-a762-4638cc21516d|ef3fa2fb-10df-43ed-83dc-d169b2f25093",
+          "Knowing violation, just enough clearance"
+        ],
+        [
+          "pth_inside_courtyard|113850000|107125000|c8a06b78-0a67-4870-be6a-8d0b810645fc|1442d6fc-b025-4612-bc94-57194c4ef3f8",
+          "Knowing violation, just enough clearance"
         ]
       ],
       "meta": {
@@ -532,7 +540,7 @@
         "diff_pair_width": 0.15,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "Ethernet MDI",
         "via_diameter": 0.854,
@@ -541,7 +549,7 @@
       {
         "name": "MII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -550,9 +558,17 @@
         "clearance": 0.15,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
+        "name": "Thick Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
         "tuning_profile": ""
       },
       {
@@ -560,7 +576,7 @@
         "diff_pair_width": 0.2,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -568,7 +584,7 @@
       {
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "tuning_profile": ""
@@ -582,7 +598,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB",
-        "pattern": "USB*"
+        "pattern": "USB*_D*"
       },
       {
         "netclass": "Power",
@@ -611,6 +627,14 @@
       {
         "netclass": "Power",
         "pattern": "VDD_*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "USB*_V*"
+      },
+      {
+        "netclass": "Thick Power",
+        "pattern": "*_SHIELD"
       }
     ]
   },

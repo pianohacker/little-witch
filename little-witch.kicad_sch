@@ -5485,12 +5485,6 @@
 		(uuid "459e7772-cadc-4a7a-8a33-a60eaebb4126")
 	)
 	(junction
-		(at 57.15 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b3b68b5-ec37-4f96-980e-8dd067abb1de")
-	)
-	(junction
 		(at 82.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6072,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 67.31 87.63)
+			(xy 49.53 87.63) (xy 67.31 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6372,16 +6366,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 85.09) (xy 57.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d9fdbc1-9a0e-4e9e-a317-c6e1f52b9b44")
-	)
-	(wire
-		(pts
 			(xy 185.42 30.48) (xy 194.31 30.48)
 		)
 		(stroke
@@ -6489,16 +6473,6 @@
 			(type default)
 		)
 		(uuid "7ce8910d-8b5c-4373-ae31-b1d45d4fcdcc")
-	)
-	(wire
-		(pts
-			(xy 49.53 87.63) (xy 57.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f617d8a-fb1a-441f-909c-c7c093e37347")
 	)
 	(wire
 		(pts
@@ -6769,16 +6743,6 @@
 			(type default)
 		)
 		(uuid "a78737e6-4437-4b5d-a324-38628a0a1dc3")
-	)
-	(wire
-		(pts
-			(xy 57.15 77.47) (xy 57.15 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7f3a430-0aa6-4540-8d2c-a723b01968c2")
 	)
 	(wire
 		(pts
@@ -11257,84 +11221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fc3b845-f1db-4a99-aba5-b47663c615c8")
-		(property "Reference" "#PWR08"
-			(at 57.15 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 57.15 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66eb36cc-df5d-48f4-85d8-b953e992b4fa")
-		)
-		(instances
-			(project "little-witch"
-				(path "/eaea4e42-a070-4be5-b9dd-9215ef3d72c7"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 194.31 27.94 0)
 		(unit 1)
@@ -13922,88 +13808,6 @@
 			(project "little-witch"
 				(path "/eaea4e42-a070-4be5-b9dd-9215ef3d72c7"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 57.15 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0c0e268-a0ee-4307-8f3b-bb0e6e5819db")
-		(property "Reference" "R1"
-			(at 59.69 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 59.69 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 57.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9f66041-7da1-4fe8-9418-4e7dce3d50b0")
-		)
-		(pin "1"
-			(uuid "b3fd2813-8e23-41f4-81ef-54630521f5ac")
-		)
-		(instances
-			(project "little-witch"
-				(path "/eaea4e42-a070-4be5-b9dd-9215ef3d72c7"
-					(reference "R1")
 					(unit 1)
 				)
 			)

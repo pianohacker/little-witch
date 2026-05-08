@@ -65,7 +65,12 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|112305000|105604979|1442d6fc-b025-4612-bc94-57194c4ef3f8|9ab625a7-4e92-43f2-9442-ad07aaa8a3fd",
+          "Knowing violation, just enough clearance"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -158,15 +163,15 @@
         {
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
-          "td_onvia": true
+          "td_onvia": false
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -177,7 +182,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -740,9 +745,14 @@
         "filename": "ethernet.kicad_sch",
         "name": "Ethernet",
         "uuid": "ff2e066b-bdbd-49a5-9475-b60d81b3cdf5"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "05f72688-0017-4264-a8fe-b126488d45b4"
       }
     ],
-    "used_designators": "C11,C27",
+    "used_designators": "R23-24,L1,#PWR8,#PWR25,#PWR42-43,#PWR50-51,U3,C11-13,C27",
     "variants": []
   },
   "sheets": [
@@ -753,6 +763,10 @@
     [
       "ff2e066b-bdbd-49a5-9475-b60d81b3cdf5",
       "Ethernet"
+    ],
+    [
+      "05f72688-0017-4264-a8fe-b126488d45b4",
+      "Power"
     ]
   ],
   "text_variables": {},

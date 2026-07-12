@@ -812,7 +812,7 @@
         "uuid": "05f72688-0017-4264-a8fe-b126488d45b4"
       }
     ],
-    "used_designators": "SW3,D1-2,#PWR21,#PWR52,JP5,R25",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -7893,7 +7893,7 @@
 		(uuid "2fe17c57-9787-472b-9930-c8167225b37a")
 	)
 	(label "PB1"
-		(at 165.1 114.3 180)
+		(at 182.88 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8003,7 +8003,7 @@
 		(uuid "4cd2e9b2-226f-439f-80b4-c4c86b657328")
 	)
 	(label "PC13"
-		(at 165.1 134.62 180)
+		(at 182.88 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8093,12 +8093,12 @@
 		(uuid "57fcbebe-6f89-464a-899b-174f720d4e41")
 	)
 	(label "PC14"
-		(at 212.09 130.81 0)
+		(at 182.88 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5b637b02-eeb0-4e07-a76c-33bc9a8ce014")
 	)

@@ -54,7 +54,7 @@ Note: 1-wire and PCM are not natively supported.
         +3v3 |  1  2  | +5v
          B11 |  3  4  | +5v
          B10 |  5  6  | gnd
-      GPCLK0 |  7  8  | A9
+          B1 |  7  8  | A9
          gnd |  9  10 | A10
         gpio | 11  12 | B12   
          C11 | 13  14 | gnd
@@ -65,8 +65,8 @@ Note: 1-wire and PCM are not natively supported.
           B3 | 23  24 | A15       
          gnd | 25  26 | gpio
           B9 | 27  28 | B8
-      GPCLK1 | 29  30 | gnd
-      GPCLK2 | 31  32 | PWM0
+         C13 | 29  30 | gnd
+         C14 | 31  32 | PWM0
         PWM1 | 33  34 | gnd
          B14 | 35  36 | gpio
          C10 | 37  38 | B15      
@@ -78,7 +78,7 @@ Little WitCH v0.3
       +3v3 |  1  2  | +5v
        B11 |  3  4  | +5v
        B10 |  5  6  | gnd
-           |  7  8  | A9
+        B1 |  7  8  | A9
        gnd |  9  10 | A10
            | 11  12 | B12
        C11 | 13  14 | gnd
@@ -89,9 +89,11 @@ Little WitCH v0.3
         B3 | 23  24 | A15
        gnd | 25  26 | 
         B9 | 27  28 | B8
-           | 29  30 | gnd
-           | 31  32 | 
+       C13 | 29  30 | gnd
+       C14 | 31  32 | 
            | 33  34 | gnd
            | 35  36 | 
        C10 | 37  38 | B14
        gnd | 39  40 | B13
+
+NOTE: SPI1 conflicts with Ethernet MDIO.

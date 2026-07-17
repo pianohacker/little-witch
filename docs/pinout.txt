@@ -1,0 +1,97 @@
+Raspberry Pi
+------------
+
+      +3v3 |  1  2  | +5v
+  I2C1 SDA |  3  4  | +5v
+  I2C1 SCL |  5  6  | gnd
+    GPCLK0 |  7  8  | UART0 TX
+       gnd |  9  10 | UART0 RX
+      gpio | 11  12 | SPI1 CE0
+   SDIO D3 | 13  14 | gnd
+  SDIO CLK | 15  16 | SDIO CMD
+      +3V3 | 17  18 | SDIO D0
+ SPI0 MOSI | 19  20 | gnd
+ SPI0 MISO | 21  22 | SDIO D1
+ SPI0 SCLK | 23  24 | SPI0 CE0
+       gnd | 25  26 | SPIO CE1
+EEPROM SDA | 27  28 | EEPROM SCL
+    GPCLK1 | 29  30 | gnd
+    GPCLK2 | 31  32 | PWM0
+      PWM1 | 33  34 | gnd
+ SPI1 MISO | 35  36 | SPI1 CE2
+   SDIO D2 | 37  38 | SPI1 MOSI
+       gnd | 39  40 | SPI1 SCLK
+
+Little WitCH v0.2
+-----------------
+
+      +3v3 |  1  2  | +5v
+       PA6 |  3  4  | +5v
+       PA5 |  5  6  | gnd
+       PA4 |  7  8  | PB15
+       gnd |  9  10 | PB14
+       PB1 | 11  12 | PA8
+      PB10 | 13  14 | gnd
+      PB11 | 15  16 | PC9
+      +3V3 | 17  18 | PA10
+       PC6 | 19  20 | gnd
+       PC7 | 21  22 | PA9
+       PC8 | 23  24 | PC14
+       gnd | 25  26 | PC15
+      PC13 | 27  28 | PB9
+       PB8 | 29  30 | gnd
+       PB5 | 31  32 | PB4
+       PB3 | 33  34 | gnd
+      PC12 | 35  36 | PD2
+      PC10 | 37  38 | PC11
+       gnd | 39  40 | PA15
+
+Little WitCH v0.3 candidates
+----------------------------
+
+Note: 1-wire and PCM are not natively supported.
+
+        +3v3 |  1  2  | +5v
+         B11 |  3  4  | +5v
+         B10 |  5  6  | gnd
+      GPCLK0 |  7  8  | A9
+         gnd |  9  10 | A10
+        gpio | 11  12 | B12   
+         C11 | 13  14 | gnd
+         C12 | 15  16 | D2
+        +3V3 | 17  18 | C8
+          B5 | 19  20 | gnd
+          B4 | 21  22 | C9
+          B3 | 23  24 | A15       
+         gnd | 25  26 | gpio
+          B9 | 27  28 | B8
+      GPCLK1 | 29  30 | gnd
+      GPCLK2 | 31  32 | PWM0
+        PWM1 | 33  34 | gnd
+         B14 | 35  36 | gpio
+         C10 | 37  38 | B15      
+         gnd | 39  40 | B13      
+
+Little WitCH v0.3
+-----------------
+
+      +3v3 |  1  2  | +5v
+       B11 |  3  4  | +5v
+       B10 |  5  6  | gnd
+           |  7  8  | A9
+       gnd |  9  10 | A10
+           | 11  12 | B12
+       C11 | 13  14 | gnd
+       C12 | 15  16 | D2
+      +3V3 | 17  18 | C8
+        B5 | 19  20 | gnd
+        B4 | 21  22 | C9
+        B3 | 23  24 | A15
+       gnd | 25  26 | 
+        B9 | 27  28 | B8
+           | 29  30 | gnd
+           | 31  32 | 
+           | 33  34 | gnd
+           | 35  36 | 
+       C10 | 37  38 | B14
+       gnd | 39  40 | B13

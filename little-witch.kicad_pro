@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -67,8 +67,8 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|112305000|105604979|1442d6fc-b025-4612-bc94-57194c4ef3f8|9ab625a7-4e92-43f2-9442-ad07aaa8a3fd",
-          "Knowing violation, just enough clearance"
+          "courtyards_overlap|112305000|106540000|1442d6fc-b025-4612-bc94-57194c4ef3f8|9ab625a7-4e92-43f2-9442-ad07aaa8a3fd",
+          ""
         ],
         [
           "courtyards_overlap|152520000|113051841|c6534a25-322c-4d2b-a762-4638cc21516d|ef3fa2fb-10df-43ed-83dc-d169b2f25093",
@@ -812,7 +812,7 @@
         "uuid": "05f72688-0017-4264-a8fe-b126488d45b4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "JP5,#PWR12,#PWR55",
     "variants": []
   },
   "sheets": [

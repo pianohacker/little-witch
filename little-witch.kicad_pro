@@ -812,7 +812,7 @@
         "uuid": "05f72688-0017-4264-a8fe-b126488d45b4"
       }
     ],
-    "used_designators": "JP1-2,JP5-6,#PWR12,#PWR55",
+    "used_designators": "TP1-4,JP1-2,JP5-6,#PWR12,#PWR55",
     "variants": []
   },
   "sheets": [

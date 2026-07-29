@@ -49,7 +49,7 @@ Little WitCH v0.2
 Little WitCH v0.3 candidates
 ----------------------------
 
-Note: 1-wire and PCM are not natively supported.
+Note: 1-wire is not natively supported.
 
         +3v3 |  1  2  | +5v
          B11 |  3  4  | +5v
@@ -62,18 +62,23 @@ Note: 1-wire and PCM are not natively supported.
         +3V3 | 17  18 | C8
           B5 | 19  20 | gnd
           B4 | 21  22 | C9
-          B3 | 23  24 | A15       
+          B3 | 23  24 | A15   
          gnd | 25  26 | gpio
           B9 | 27  28 | B8
          C13 | 29  30 | gnd
          C14 | 31  32 | C15
           C7 | 33  34 | gnd
          B14 | 35  36 | gpio
-         C10 | 37  38 | B15      
+         C10 | 37  38 | B15  
          gnd | 39  40 | B13      
 
 Little WitCH v0.3
 -----------------
+
+- RPI SPI0 -> WCH32V307 SPI3
+- RPI SPI1 -> WCH32V307 SPI2 (conflicts with Ethernet)
+- RPI PCM -> WCH32V307 I2S3 (_not_ conflicting with Ethernet but multiplexed onto SPI2 pins and
+  preventing use of SPI3)
 
       +3v3 |  1  2  | +5v
        B11 |  3  4  | +5v

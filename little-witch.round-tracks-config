@@ -1,0 +1,8 @@
+Default	True	2.0	3
+MDI	False	2.0	3
+MII	False	2.0	3
+Power	True	2.0	3
+Thick Power	True	2.0	3
+USB	False	2.0	3
+VBUS	True	2.0	3
+False	True	False

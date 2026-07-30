@@ -75,6 +75,8 @@ Note: 1-wire is not natively supported.
 Little WitCH v0.3
 -----------------
 
+- RPI I2C1 -> WCH32V307 I2C2
+- RPI EEPROM I2C -> WC32V307 I2C1
 - RPI SPI0 -> WCH32V307 SPI3
 - RPI SPI1 -> WCH32V307 SPI2 (conflicts with Ethernet)
 - RPI PCM -> WCH32V307 I2S3 (_not_ conflicting with Ethernet but multiplexed onto SPI2 pins and

@@ -75,6 +75,26 @@
           "Knowing violation, just enough clearance"
         ],
         [
+          "courtyards_overlap|154201795|124820882|1ed7b68e-ccb1-4e88-a1d0-342f22116b39|3e1a2a87-fcfb-4823-8e3c-2136adce6d29",
+          "Required spacing to match RPi Zero"
+        ],
+        [
+          "hole_clearance|158045000|111950000|51805dd3-966a-49de-9cfa-c5f6f92e3d35|4cbe8018-2238-4b15-b94d-35211050b321",
+          ""
+        ],
+        [
+          "hole_clearance|158045000|111950000|ac180299-0cbf-4295-8ed6-8244274cd517|4cbe8018-2238-4b15-b94d-35211050b321",
+          ""
+        ],
+        [
+          "hole_clearance|158045000|118050000|a3acc698-0764-42a7-9dd1-5ef12ed4619c|c9d277e5-14d6-4678-a149-8f6cd61e86b1",
+          ""
+        ],
+        [
+          "hole_clearance|158045000|118050000|a58c7b13-0c0d-4735-b41d-900a8f39f7c7|c9d277e5-14d6-4678-a149-8f6cd61e86b1",
+          ""
+        ],
+        [
           "pth_inside_courtyard|113850000|107125000|c8a06b78-0a67-4870-be6a-8d0b810645fc|1442d6fc-b025-4612-bc94-57194c4ef3f8",
           "Knowing violation, just enough clearance"
         ]
@@ -812,7 +832,7 @@
         "uuid": "05f72688-0017-4264-a8fe-b126488d45b4"
       }
     ],
-    "used_designators": "TP1-4,JP1-2,JP5-6,#PWR12,#PWR55",
+    "used_designators": "TP1-4,JP1-2,JP5-7,#PWR12,#PWR55",
     "variants": []
   },
   "sheets": [
